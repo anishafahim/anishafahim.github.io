@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Plans</title>
+    <style>
+        .navbar {
+            background-color: rgba(170, 128, 204, 0.3);
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+        }
+
+        .navbar ul {
+            overflow: auto;
+            padding: 0;
+            /* Remove padding */
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 7px 17px;
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 18px;
+            /* Adjust the font size as needed */
+        }
+
+        /* Add vertical spacing between images */
+        img {
+            display: block;
+            margin-top: 90px;
+            /* Adjust the margin-top value to control spacing */
+            margin-bottom: 200px;
+            /* Adjust the value to control the spacing */
+            width: 100%;
+        }
+
+        .navbar li a:hover {
+            color: yellow;
+            /* You can change 'yellow' to the desired hover color */
+        }
+    </style>
+</head>
+
+<body style="background-color: #3c1b72;">
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">HOME🏠</a></li>
+                <li><a href="Plans.html">PLANS📝</a></li>
+                <li><a href="Diary.html">DIARY📔</a></li>
+                <li><a href="Media.html">MEDIA🗂</a></li>
+                <li><a href="Namaz.html">NAMAZ🤲</a></li>
+        </nav>
+    </header>
+
+    <div data-aos="fade-in"><img src="Marriage.png"></div>
+    <div data-aos="fade-in"><img src="Trips.png"></div>
+    <div data-aos="fade-in"><img src="Fida.png"></div>
+    <div data-aos="fade-in"><img src="Hajj.png"></div>
+    <p style="text-align: center;">💗💗💗</p>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 750,
+        });
+    </script>
+</body>
+
+</html>
